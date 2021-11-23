@@ -1,0 +1,50 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: serif;
+}
+
+body {
+  background: url('./backg.jpg') no-repeat;
+  background-size: cover;
+}
+
+.login-form {
+  width: 350px;
+  font-weight: bold;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+}
+
+.login-form h1 {
+  font-size: 60px;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 40px 0;
+  color: rgb(236, 141, 16);
+}
+
+.login-form p {
+  font-size: 20px;
+  margin: 12px 0;
+}
+.login-form input {
+  font-size: 17px;
+  width: 100%;
+  padding: 12px 10px;
+  border: 0;
+  outline: none;
+  border-radius: 4px; 
+}
+
+.login-form button {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 20px 0;
+  padding: 10px 15px;
+  width: 50%;
+  border-radius: 8px;
+  border: 0;
+}
