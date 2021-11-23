@@ -1,0 +1,30 @@
+<html>
+<head>
+    <title>Login</title>
+    <link rel="stylesheet" type="text/css" href="/static/login-style.css">
+</head>
+<body>
+    <div class="login-form">
+        <h1>Login</h1>
+        <form action= "#" method = "POST">
+            <p>User name</p>
+            <input type = "text" name = "user" placeholder = "User name">
+            <p>Password</p>
+            <input type = "password" name = "password" placeholder = "Password">
+            <button type = "submit">Login</button>
+        </form>
+        <form action="/register" method="POST">
+          <div class="other">
+               <a href="{{ url_for('register') }}"><button class="btn submits sign-up">Sign Up 
+               <i class="fa fa-user-plus" aria-hidden="true"></i>
+               </button></a>
+            </div>
+            </form>             
+           </div>
+           
+         </div>
+    </div>
+    
+</body>
+  
+</html>
